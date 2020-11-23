@@ -42,7 +42,11 @@ function draw() {
   bin2.display();
   bin3.display();
 
+  if keyPressed(SPACE){
 
+	ball1.velocityY = -9
+
+  }
 
 
   drawSprites();
